@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./bootstrap.min.css">
+    <link rel="stylesheet" href="main.css" />
+    <title>contact</title>
+  </head>
+  <body>
+    <div class="form">
+      <div class="right">
+        <h1>sign up</h1>
+          <input name="name" autocomplete="" id="inp_name" placeholder="name" type="text" />
+          <div class="alert alert-danger " id="name-alert" role="alert">
+            This is a danger alert—check it out!
+          </div>
+          <input
+            name="email"
+            id="inp_mail"
+            autocomplete=""
+            placeholder="email"
+            type="email"
+          />
+          <div class="alert alert-danger " id="mail-alert" role="alert">
+            This is a danger alert—check it out!
+          </div>
+          <input
+            name="password"
+            id="inp_pass"
+            autocomplete=""
+            placeholder="password"
+            type="password"
+          />
+         
+          <div class="btns">
+            <button class="signup" onclick="register()">SignUp</button>
+            <button class="login" onclick="ref()">SignIn</button>
+          </div>
+          <p id="msg"></p>
+       
+      </div>
+      <div class="left"></div>
+    </div>
+
+    <script src="./bootstrap.min.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

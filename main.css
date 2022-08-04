@@ -1,0 +1,109 @@
+*
+{
+  box-sizing:border-box;
+  font-family: 'arial' , tahoma;
+  font-size: 20px;
+}
+html{
+    height: 100%;
+}
+body
+{
+    background: linear-gradient( rgb(10 38 91 / 40%), rgb(0 0 0 / 35%) ), url(back.jfif);
+    /* border-radius: 10px; */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form{
+    /*background: linear-gradient( rgb(89% 42% 29% / 79%), rgb(89% 42% 29% / 79%) ), url(Yasuo.jpg);*/
+    margin: 4% auto;
+    width: 81%;
+    border-radius: 17px;
+    display: flex;
+    height: 31em;
+    /* border-radius: 28em; */
+}
+h1{
+    font-size: 35px;
+    /* font-family: cursive; */
+    color: white;
+    font-family: cursive;
+    letter-spacing: 3px;
+    word-spacing: -11px;
+}
+input{
+    display: block;
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #9183838c;
+    width: 86%;
+    margin-bottom: 1em;
+    padding: 12px;
+    color: white;
+}
+
+.left{
+    width: 2em;
+    width: 60%;
+    /* width: 50em; */
+    /* background: antiquewhite; */
+    background: linear-gradient(59deg, rgb(44 5 5 / 39%) 11%, rgb(123 14 14 / 41%) 32%, rgb(0 0 0 / 31%) 50%, rgb(17 17 75 / 25%) 84%,
+     rgb(124 22 64 / 55%) 97%),url(Xayah.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: difference;
+    z-index: 51515;
+    /* background-position-x: right; */
+}
+.right{
+    width: 43%;
+    padding: 1em 0 0 3em;
+    background: #9c1943;
+    background: linear-gradient(59deg, rgb(132 39 42 / 34%) 11%, rgb(170 44 31 / 40%) 21%, rgb(165 47 56 / 35%) 50%, rgb(148 16 131 / 12%) 81%, rgb(155 54 54 / 0%) 96%);
+    /* border-radius: 17px; */
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+}
+.btns{
+    display: flex;
+    margin-top: 1em;
+}
+button{
+    margin-right: 1em;
+    padding: 5px;
+    background: transparent;
+    width: 5em;
+    border: 1px solid #ceaeae8c;
+    border-radius: 4px;
+    color: white;
+    box-shadow: 0px 0px 19px 0px rgb(255 255 255 / 14%);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+button:hover{
+    background: black;
+    box-shadow: none;
+    border-color: #0000006e;
+}
+input::placeholder{
+    color: #f0f8ff99;
+}
+.left img{
+    position: absolute;
+    height: 27em;
+    left: 4em;
+    width: 31em;
+}
+.alert{
+    display: none;
+}
+
+.pos-center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50% , -50%) ;
+    text-shadow: 2px 18px 8px #9c1943; 
+}
